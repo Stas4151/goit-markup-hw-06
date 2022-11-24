@@ -427,17 +427,19 @@ header {
 
 .input-user {
     position: relative;
+    text-align: start;
     margin-bottom: 10px;
 }
 
 .input-coment {
+    text-align: start;
     margin-bottom: 20px;
 }
 
 .user-icon {
     position: absolute;
     left: 15px;
-    top: 50%;
+    top: 65%;
     transform: translateY(-50%);
 
     fill: var(--main-text-color);
